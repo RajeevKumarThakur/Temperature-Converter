@@ -43,7 +43,7 @@ public class Controller implements Initializable {
 		});
 	}
 	private void convert() {
-		String input=userInputField.getText();
+		String input = userInputField.getText();
 		float enteredTemperature = 0.0f;
 		try {
 			enteredTemperature = Float.parseFloat(input);

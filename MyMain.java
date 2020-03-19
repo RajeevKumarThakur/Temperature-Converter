@@ -35,7 +35,7 @@ public class MyMain extends Application {
         primaryStage.show();
     }
 
-    private MenuBar createMenu(){
+    private MenuBar createMenu() {
         //File Menu
         Menu fileMenu =new Menu("File");
         MenuItem newFile=new MenuItem("New");
